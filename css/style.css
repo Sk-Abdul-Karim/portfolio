@@ -1,0 +1,133 @@
+/* All Common CSS Start  */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a,a:hover{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2.h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+ul,ol{
+    list-style-type: none;
+}
+/* All Common CSS End */
+
+/* Header Part Start  */
+:root{
+  --primary-1: #4f46e5;
+  --primary-2: #06b6d4;
+  --light-overlay: rgba(255,255,255,0.15);
+  --light-border: rgba(255,255,255,0.2);
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  margin: 0;
+}
+
+/* Hero / banner */
+.hero {
+  background: linear-gradient(135deg, var(--primary-1) 0%, var(--primary-2) 100%);
+  color: #fff;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Buttons */
+.btn-ghost {
+  background: var(--light-overlay);
+  color: #fff;
+  border: 1px solid var(--light-border);
+}
+
+.btn-ghost:hover {
+  background: rgba(255,255,255,0.22);
+  color: #fff;
+}
+
+/* Image styling */
+.hero-img {
+  max-width: 100%;
+  border-radius: .5rem;
+  box-shadow: 0 8px 30px rgba(2,6,23,0.35);
+}
+
+/* Responsive tweaks */
+@media (max-width: 767.98px) {
+  .hero {
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .hero .col-lg-7, .hero .col-lg-5 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+/* Header Part End */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  margin: 0;
+}
+
+.about .card {
+  border: none;
+}
+
+.about .card-title {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.education-item h5 {
+  font-size: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.progress {
+  background-color: rgba(0,0,0,0.08);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  transition: width 1s ease;
+}
+
+.badge {
+  font-size: 0.85rem;
+  padding: 0.45rem 0.6rem;
+}
+
+/* Header Part Start  */
+/* Header Part End */
+
+/* Header Part Start  */
+/* Header Part End */
+
+/* Header Part Start  */
+/* Header Part End */
+
+/* Header Part Start  */
+/* Header Part End */
+
+/* Header Part Start  */
+/* Header Part End */
+
+/* Header Part Start  */
+/* Header Part End */
+
+/* Header Part Start  */
+/* Header Part End */
+
